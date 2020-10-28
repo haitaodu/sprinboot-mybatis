@@ -1,0 +1,18 @@
+mybatis:
+  typeAliasesPackage: com.smartflow.sprinbootmybatis.entity
+  mapperLocations: classpath:mapping/*.xml
+
+
+spring:
+  datasource:
+    url: jdbc:sqlserver://192.168.1.252:1433;databaseName=MESDB_SXHTDL3
+    username: sa
+    password: 1qaz@wsx
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+
+
+
+server:
+  servlet:
+    context-path: /demo
+  port: 8082
